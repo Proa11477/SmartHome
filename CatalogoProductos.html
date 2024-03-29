@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="Css/ForIndex.css">
+    <title>Productos | SmartHome</title>    
+    <link rel="icon" type="image/png" href="Img/Logo-Title.png">
 </head>
-<body>
-    <h1>Catalogo de productos</h1>
-</body>
-</html>
+<body id="IndexBody">
+    <header>
+        <h1><a href="Index.html"><img src="Img/LogoHeader.png" alt="Logo"></a></h1>
+        
+            <button onclick="abrirPagina('CatalogoProductos.html')">Ver Productos</button>
+        
+            <nav class="menu">
+                <ul id="AcomodarHorizontales">
+                    <li><a href="Index.html">Inicio</a></li>                    
+                    <li class="dropdown">
+                        <a href="#" style="margin-right: 230px;">Explorar</a>
+                        <ul class="submenu">
+                            <li><a href="HTML.html">Iluminación Inteligente</a></li>
+                            <li><a href="CSS.html">Electrodomesticos Inteligentes</a></li>
+                            <li><a href="">Climatización Inteligente</a></li>
+                            <li><a href="">Asistentes de Voz y Controladores</a></li>
+                        </ul>
+                    </li>   
+                    
+                    <li>
+                        <div class="BusquedaDIV">
+                            <div id="AlineadoBarra">
+                            <input id="BarraBusqueda" type="text" placeholder="Buscar...">
+                            <button id="ButtonBusqueda" type="submit"><img src="Img\IconoBusqueda.png" alt="IconoBuscar"></button>
+                            </div>
+                        </div>            
+                    </li>
+                    <li id="AcomodarHorizontales">
+                        <div id="CarritoAcomodo">
+                            <a href="CatalogoProductos.html"><img id="CarritoIcono" src="Img/CarritoCompra.png" alt="IconoCarrito"></a>
+                        </div>
+                        <div>
+                        <a href="">Iniciar Sesión</a>
+                        </div>
+                    </li>
+                </ul>
+              </nav>             
+    </header>

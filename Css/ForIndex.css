@@ -5,6 +5,9 @@
 
 }
 
+button:hover{
+    background-color: #009295 ;
+}
 #OrdenarHorizontal{
     flex: 1;
     display: flex;
@@ -20,6 +23,7 @@
 
 /*HEADER*/
 header {
+    width: 100%;
     display: flex;
     margin: 0px;
     align-items: center;
@@ -150,7 +154,9 @@ header button{
     height: 20px;
     filter: invert(100%);
 }
-
+#ButtonBusqueda:hover{
+    background-color: #009295;
+}
 #CarritoIcono {
     width: 29px;
     height: 29px;    
@@ -316,6 +322,10 @@ nav a:hover{
     color: white;
 }
 
+#TuHogarMasInteligenteSection button:hover{
+    background-color: #009295;
+}
+
 /*SECCION DOS Fin*/
 
 
@@ -344,9 +354,11 @@ nav a:hover{
 }
 
 
+
 .IconoInformacionTexto:last-child{
     margin-right: 0px;
 }
+
 .IconoInformacionTexto img{
     height: 90px;
     width: 90px;
@@ -359,6 +371,7 @@ nav a:hover{
 #IndexSeccionCuatro{
     height: auto;
     text-align: center;
+    background-color: white;
 }
 
 #IndexSeccionCuatro h1{
@@ -374,5 +387,16 @@ nav a:hover{
     font-family: 'Avenir';
     color: rgb(136, 136, 136);
     font-style: italic;
+}
+
+#TarjetaCategoria{
+    text-align: center;
+    width: 400px;
+    height: 800px;
+}
+
+#TarjetaCategoria img{
+    width: 100%;
+    height: auto;
 }
 /*SECCION CUATRO Fin*/
