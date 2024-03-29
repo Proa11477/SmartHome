@@ -1,9 +1,8 @@
-#IndexSeccionUno{
-    border: 3px solid black;
-}
 
 #MainIndex{
-    border: 3px solid red;
+    background-color: rgb(243, 243, 243);
+    padding-top: 75px;
+
 }
 
 #OrdenarHorizontal{
@@ -12,11 +11,13 @@
 }
 
 #IndexBody{
-    background-color: rgb(201, 201, 201);
     margin: 0px;
     width: 100%;
     
 }
+
+
+
 /*HEADER*/
 header {
     display: flex;
@@ -25,10 +26,11 @@ header {
     border-top: 6px solid purple;
     background-color: white;
     font-style: oblique;
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2); /* Agregar sombra */
 
 }
-
-
 
 header h1 {
     color: rgb(243, 160, 252);
@@ -55,6 +57,7 @@ header button{
 }
 
 .menu {
+    padding-top: 10px;
     background-color: white;
     text-align: center;
     width: 100%;
@@ -80,6 +83,9 @@ header button{
     text-decoration: none;
     padding: 10px 20px;
 }
+
+
+
 
 /* Estilos para el menú desplegable */
 .submenu {
@@ -111,6 +117,7 @@ header button{
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Agregar sombra */
 
 }
+
 #AlineadoBarra{
     display: flex;
     align-items: center; /* Alinear verticalmente */
@@ -150,7 +157,7 @@ header button{
 }
 
 #CarritoAcomodo{
-    margin-right: 20px;
+    margin-right: 10px;
     margin-left: 10px;
     justify-content: center;
 }
@@ -159,10 +166,213 @@ header button{
     display: flex;
 }
 
+
+
+
 /*EFECTOS HEADER MENU*/
 nav a:hover{
     color: #00CED1;
 }
-/*EFECTOS HEADER MENU FIN*/
 
+/*EFECTOS HEADER MENU FIN*/
 /*HEADER FIN*/
+
+
+
+
+
+
+/*SECCION UNO*/
+/*Tipo de letra para la seccion 1*/
+/*@font-face {
+    font-family: 'Avenir';
+    src: url('AvenirNextLight.ttf') format('truetype');
+}  SE MOVIO AL INDEX PARA QUE SE PUSIERA CORRECTAMENTE */
+
+
+#IndexSeccionUno{
+    height: auto;
+}
+
+#QuienesSomosSection{
+    padding-left: 850px;
+    padding-top: 170px;
+    padding-bottom: 300px;
+}
+
+#QuienesSomosSection h1{
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: rgb(67, 67, 67);
+}
+
+#QuienesSomosSection p{    
+    font-size:15px;
+    color: rgb(85, 85, 85);
+}
+
+#custom-list {
+    list-style: none; /* Eliminar las viñetas predeterminadas */
+}
+
+#custom-list li::before {
+    content: ">"; /* Utilizar un > como viñeta */
+    color: #00CED1; /* Color de la viñeta */
+    display: inline-block;
+    font-weight: 1000;
+    width: 1em; /* Ajustar el ancho para alinear correctamente */
+    margin-right: 0.5em; /* Espacio entre la viñeta y el texto */
+}
+
+#custom-list li {
+    padding-top: 30px;
+    font-family: 'Avenir';
+    color: rgb(85, 85, 85); /* Color del texto */
+}
+
+#aparecerViñeta {
+    opacity: 0; /* Inicialmente, el elemento está oculto */
+    animation: aparecer 4s ease forwards; /* Definir la animación */
+}
+
+#aparecerViñeta2 {
+    opacity: 0; /* Inicialmente, el elemento está oculto */
+    animation: aparecer 6s ease forwards; /* Definir la animación */
+}
+
+#aparecerViñeta3 {
+    opacity: 0; /* Inicialmente, el elemento está oculto */
+    animation: aparecer 8s ease forwards; /* Definir la animación */
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0; /* Estado inicial: completamente transparente */
+    }
+    to {
+        opacity: 1; /* Estado final: completamente visible */
+    }
+}
+/*SECCION UNO Fin*/
+
+
+
+
+/*SECCION DOS*/
+
+#IndexSeccionDos{
+    background-color: white;
+    height: auto;
+    
+}
+
+#IndexSeccionDosAcomodo{
+    display: flex;
+    justify-content: space-between;
+}
+
+#IndexSeccionDosAcomodo Div{
+    flex: 1;
+    max-width: 50%;
+}
+
+    
+#IndexSeccionDosAcomodo Div:nth-child(2){
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+#TuHogarMasInteligenteSection {
+    padding-top: 100px;
+    padding-left: 300px;
+    padding-bottom: 100px;
+}
+
+#TuHogarMasInteligenteSection h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: rgb(67, 67, 67);
+}
+
+#TuHogarMasInteligenteSection p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgb(67, 67, 67);
+}
+
+#TuHogarMasInteligenteSection p:nth-child(3){
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: rgb(67, 67, 67);
+    text-decoration: underline 1px rgb(67, 67, 67) ;
+}
+
+#TuHogarMasInteligenteSection button{
+    margin-right: 40px;
+    height: 40px;
+    width: 90px;
+    background-color: #00CED1;
+    border: 0px;
+    color: white;
+}
+
+/*SECCION DOS Fin*/
+
+
+
+
+/*SECCION TRES*/
+#IndexSeccionTres{
+    background-color: white;
+    height: auto;
+}
+
+#IndexSeccionTresAcomodo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.IconoInformacionTexto{
+    font-family: Helvetica;
+    color: rgb(67, 67, 67);
+    text-align: center;
+    margin-right: 90px;
+    width: 240px;
+}
+
+
+.IconoInformacionTexto:last-child{
+    margin-right: 0px;
+}
+.IconoInformacionTexto img{
+    height: 90px;
+    width: 90px;
+}
+/*SECCION TRES Fin*/
+
+
+
+/*SECCION CUATRO*/
+#IndexSeccionCuatro{
+    height: auto;
+    text-align: center;
+}
+
+#IndexSeccionCuatro h1{
+    padding-top: 250px;
+    font-size: 70px;
+    font-family: 'Avenir';
+    color: rgb(136, 136, 136);
+}
+
+#IndexSeccionCuatro p{
+    padding-top: 10px;
+    padding-bottom: 250px;
+    font-family: 'Avenir';
+    color: rgb(136, 136, 136);
+    font-style: italic;
+}
+/*SECCION CUATRO Fin*/
