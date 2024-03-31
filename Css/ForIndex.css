@@ -13,7 +13,7 @@ button:hover{
     display: flex;
 }
 
-#IndexBody{
+Body{
     margin: 0px;
     width: 100%;
     
@@ -55,7 +55,7 @@ header button{
     margin-right: 40px;
     height: 40px;
     width: 90px;
-    background-color: #00CED1;
+    background-color: #44DBBD;
     border: 0px;
     color: white;
 }
@@ -139,7 +139,7 @@ header button{
 }
 
 #ButtonBusqueda {
-    background-color: #00CED1; /* Color turquesa */
+    background-color: #44DBBD; /* Color turquesa */
     border: none;
     border-radius: 0 30px 30px 0; /* Redondear solo la esquina derecha */
     padding: 8px 15px;
@@ -177,7 +177,7 @@ header button{
 
 /*EFECTOS HEADER MENU*/
 nav a:hover{
-    color: #00CED1;
+    color: #44DBBD;
 }
 
 /*EFECTOS HEADER MENU FIN*/
@@ -223,7 +223,7 @@ nav a:hover{
 
 #custom-list li::before {
     content: ">"; /* Utilizar un > como viñeta */
-    color: #00CED1; /* Color de la viñeta */
+    color: #44DBBD; /* Color de la viñeta */
     display: inline-block;
     font-weight: 1000;
     width: 1em; /* Ajustar el ancho para alinear correctamente */
@@ -317,7 +317,7 @@ nav a:hover{
     margin-right: 40px;
     height: 40px;
     width: 90px;
-    background-color: #00CED1;
+    background-color: #44DBBD;
     border: 0px;
     color: white;
 }
@@ -389,17 +389,213 @@ nav a:hover{
     font-style: italic;
 }
 
-#TarjetaCategoria{
-    text-align: center;
-    width: 400px;
-    height: 800px;
+
+/*SECCION CUATRO Fin*/
+
+
+/*SECCION PRODUCTOS*/
+
+#IndexSeccionProductos{
+    background-color: rgb(243, 243, 243);
 }
 
-#TarjetaCategoria img{
+#TarjetaProducto{    
+    width: 400px;
+    height: 600px;
+    border: 2px solid rgb(165, 165, 165);
+    background-color: white;        
+}
+
+#TarjetaProducto h1{
+    text-align: left;
+}
+
+#TarjetaProducto p{
+    text-align: end;
+}
+
+
+#TarjetaProducto img{
+    width: 100%;
+    height: 70%;
+}
+/*SECCION PRODUCTOS Fin*/
+
+/*SECCION CINCO*/
+
+#IndexSeccionCinco{
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+}
+
+#IndexSeccionCinco h1{
+    font-size: 45px;
+    color: rgb(49, 48, 48);
+    margin-bottom: 0px;
+}
+
+#IndexSeccionCinco button{
+    background-color: #44DBBD;
+    color: white;
+    height: 35px;
+    width: 120px;
+    border: 0px;
+}
+
+#IndexSeccionCinco button:hover{
+    background-color: #009295;
+}
+
+
+#IndexSeccionCincoTextoBtn{
+    padding-top: 100px;
+    padding-left: 300px;
+}
+
+
+/*SECCION CINCO Fin*/
+
+/*FOOTER*/
+footer{
+    background-color: #F3F3F3;
+    height: 700px;
+    width: 100%;
+    justify-content: space-between;
+     
+}
+
+
+#FooterDivUno p{
+    color: #2F2E2E;
+    font-family: 'Avenir';
+    text-decoration: underline 1px;
+}
+
+#FooterDivUno p:nth-child(5){
+    color: #9F9F9E;
+    margin-top: 20px;
+    font-size: 10px;
+    text-decoration: none;
+    
+}
+
+.FooterDivAcomodo{
+    padding-top: 150px;
+    justify-content: center;
+}
+
+#FooterDivDos p{ 
+    font-family: 'Avenir';
+    color: #605E5E;
+}
+
+#FooterDivDos p:first-child{ 
+    color: #2F2E2E;
+    font-size: 20px;
+}
+
+#FooterDivDos ul{
+    font-family: 'Avenir';
+    color: #605E5E;
+}
+
+#FooterDivTres p{
+    font-family: 'Avenir';
+    color: #605E5E;
+}
+
+#FooterDivTres p:first-child{
+    color: #2F2E2E;
+    font-size: 20px;
+}
+
+#FooterCorreoElectronicoBarra{
+    margin-top: 70px;
+    margin-left: 20px;
+    width: 300px;
+    height: 35px;
+    border: 0;
+    background-color: #E0E0E0;
+
+}
+
+footer button{
+    background-color: #44DBBD;
+    border: 0;
+    color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 305px;
+    height: 35px;
+
+}
+
+/*FOOTER Fin*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+||||          ||||   ||||||||||     |||||||||||     ||||||||||||    ||||||||||||    ||||       ||||             
+|||||||    |||||||  ||||    ||||    ||||    ||||        ||||            ||||        ||||||     ||||            
+|||| |||||||| ||||  ||||    ||||    ||||    ||||        ||||            ||||        |||| ||    ||||            
+||||   ||||   ||||  ||||    ||||    ||||||||||||        ||||            ||||        ||||  ||   ||||            
+||||          ||||  ||||||||||||    ||||  ||||          ||||            ||||        ||||   ||  ||||        
+||||          ||||  ||||    ||||    ||||   ||||         ||||            ||||        ||||    || ||||         
+||||          ||||  ||||    ||||    ||||    ||||        ||||            ||||        ||||     ||||||          
+||||          ||||  ||||    ||||    ||||     ||||       ||||        ||||||||||||    ||||      |||||             
+
+
+
+                ||||                ||||
+                ||||                ||||
+                ||||                ||||
+                ||||                ||||            
+            ||||||||||||        ||||||||||||                
+             ||||||||||          ||||||||||   
+              ||||||||            ||||||||  
+               ||||||              ||||||
+                ||||                ||||
+                 ||                  ||
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*ESTILOS PRODUCTO*/
+#MainProducto{
+    background-color: rgb(243, 243, 243);
+    padding-top: 75px;
     width: 100%;
     height: auto;
+    
 }
-/*SECCION CUATRO Fin*/
+
 .container {
     display: flex;
     justify-content: center;
@@ -411,30 +607,65 @@ nav a:hover{
     display: flex;
 }
 
+.star {
+    font-size: 32px;
+    color: #bbb;
+    transition: color 0.3s;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-left: 5px;
+}
+.star.checked, .star:hover {
+    color: gold;
+}
+.heart {
+    font-size: 32px;
+    color: #44DBBD;
+    cursor: pointer;
+    position: absolute;
+    top: 350px; /* Ajustar la posición verticalmente */
+    margin-right: 450px; /* Ajustar la posición horizontalmente */
+}
+
+.heart.liked {
+    color: #ff0000; /* Rojo */
+}
 .product-image-container {
-    width: 500px; /* Ancho inicial del contenedor */
-    height: 500px; /* Alto inicial del contenedor */
-    border: 2px solid black; /* Borde inicial */
-    margin-right: 20px; /* Espacio a la derecha del contenedor */
-    padding: 10px; /* Espacio interno dentro del contenedor */
-  
+    position: relative;
+    width: 510px;
+    /* Ancho del contenedor */
+    height: 510px;
+    /* Alto del contenedor */
+    border: 2px solid black;
+    margin-top: -10px;
+    margin-right: 650px;
+    padding: 10px;
 }
 
 .product-image {
-    width: 100%; /* Ancho de la imagen dentro del contenedor */
-    height: 100%; /* Alto de la imagen dentro del contenedor */
-    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
-    position: absolute; /* Establece la posición absoluta para permitir el posicionamiento relativo al contenedor */
-    top: 100%; /* Desplaza la imagen hacia abajo un 50% de la altura del contenedor */
-    left: 50%; /* Desplaza la imagen hacia la derecha un 50% del ancho del contenedor */
-    transform: translate(-50%, -50%); /* Corrige el desplazamiento para centrar la imagen */
+    position: absolute;
+    top: 50%;
+    /* Coloca la parte superior de la imagen en el centro vertical */
+    left: 50%;
+    /* Coloca el lado izquierdo de la imagen en el centro horizontal */
+    transform: translate(-50%, -50%);
+    /* Desplaza la imagen hacia atrás en su propia mitad en ambas direcciones */
+    width: 100%;
+    /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: auto;
+    /* La altura se ajusta automáticamente para mantener la relación de aspecto */
+    object-fit: contain;
+    /* Ajusta la imagen para que se ajuste dentro del contenedor manteniendo su relación de aspecto */
 }
 
 .product-thumbnails {
+    margin-left: -77%;
+    /* Ajusta la distancia desde el borde izquierdo */
+    /* Mantén las demás propiedades sin cambios */
     display: flex;
-    flex-direction: row; /* Coloca las miniaturas en una fila */
-    margin-top: 550px; /* Espacio arriba de las miniaturas */
-    margin-left: -780px;
+    flex-direction: row;
+    margin-top: 550px;
 }
 
 .thumbnail {
@@ -475,14 +706,14 @@ input[type=number] {
     color: white; /* Color del texto */
     border: none; /* Eliminar borde */
     cursor: pointer; /* Cambiar cursor al pasar el mouse */
-    margin-top: 150px; /* Espacio arriba del botón */
+    margin-top: 35px; /* Espacio arriba del botón */
 }
 
 .comments-box {
     padding: 10px;
     font-size: 1.2em; /* Tamaño de letra más grande */
     text-align: left; /* Texto alineado a la izquierda */
-    margin-top: 300px;
+    margin-top: 80px;
     margin-left: 20px; /* Separación del margen izquierdo */
     background-color: #44DBBD;
 }
@@ -507,17 +738,21 @@ input[type=number] {
     border: none;
     cursor: pointer;
 }
-.product-long-description{
+.product-description {
     position: absolute;
-    top: 760px;
-    margin-left: 270px;
+    top: 40px;
+    /* Ajusta la posición vertical según sea necesario */
+    margin-left: 750px;
+    /* Centra horizontalmente */
+    transform: translateX(-50%);
+    /* Centra horizontalmente */
 }
 .Tuscomentarios {
     margin-top: 20px;
     text-align: center;
 }
 .user-comments-box {
-
+    border: 1px solid #ccc;
     padding: 10px;
     margin-top: 10px;
 }
@@ -534,7 +769,126 @@ input[type=number] {
 }
 
 .user-comments-box li {
-    border: 1px solid #ccc;
+ 
     padding: 10px;
     margin-bottom: 10px;
 }
+.product-long-description {
+    margin-top: 700px;
+    /* Ajusta la distancia desde la parte superior */
+    margin-left: -22%;
+    /* Ajusta la ditancia desde el borde izquierdo */
+}
+.redes-sociales {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+
+.redes-sociales i {
+    font-size: 24px;
+}
+/*ESTILOS PRODUCTO FIN */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ESTILOS CATALOGO */
+/* Estilos para los productos */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-box {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px);
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+.product-box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.product-box h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.product-box p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Estilos para el botón desplegable */
+.Filtros {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    background-color: rgb(100, 209, 174);
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 120px;
+    margin-left: 25px;  
+    margin-top: 20px;   
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #009295;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*ESTILOS CATALOGO */

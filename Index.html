@@ -7,7 +7,7 @@
     <title>INICIO | SmartHome</title>    
     <link rel="icon" type="image/png" href="Img/Logo-Title.png">
 </head>
-<body id="IndexBody">
+<body>
     <header>
         <h1><a href="Index.html"><img src="Img/LogoHeader.png" alt="Logo"></a></h1>
         
@@ -19,10 +19,10 @@
                     <li class="dropdown">
                         <a href="#" style="margin-right: 230px;">Explorar</a>
                         <ul class="submenu">
-                            <li><a href="HTML.html">Iluminación Inteligente</a></li>
-                            <li><a href="CSS.html">Electrodomesticos Inteligentes</a></li>
-                            <li><a href="">Climatización Inteligente</a></li>
-                            <li><a href="">Asistentes de Voz y Controladores</a></li>
+                            <li><a href="CatalogoProductos.html">Iluminación Inteligente</a></li>
+                            <li><a href="CatalogoProductos.html">Electrodomesticos Inteligentes</a></li>
+                            <li><a href="CatalogoProductos.html">Climatización Inteligente</a></li>
+                            <li><a href="CatalogoProductos.html">Asistentes de Voz y Controladores</a></li>
                         </ul>
                     </li>   
                     
@@ -76,7 +76,7 @@
                         <h1 style="font-family: 'Avenir';">Tu Hogar <br>Más Inteligente</h1>                    
                         <p style="font-family: 'Avenir';">Controla la energía de tu hogar <br>con estilo.</p>
                         <p style="font-family: 'Avenir';">Saber Más</p>
-                        <button onclick="abrirPagina('CatalogoProductos.html')">Ver Producto</button>
+                        <button onclick="abrirPagina('Producto.html')">Ver Producto</button>
                     </div>
                     <div>
                         <a href="CatalogoProductos.html"><img src="Img/Amazon Echo Alexa 4ta Generación Negro foto1.jpeg" alt="Producto" style="height: 550px; width: auto;"></a>
@@ -134,30 +134,75 @@
         </article>
 
         <article id="IndexSeccionProductos">
-            <div>
-            <h1>Categorías</h1>
+            <div style="padding-left: 50px;">
+            <h1 style="font-family: 'Avenir';">Más Vendidos</h1>
             </div>
             <div>
-                <div>
-                    <div id="TarjetaCategoria">                        
-                        <a href="CatalogoProductos.html"><img src="Img/Amazon Echo Alexa 4ta Generación Negro foto1.jpeg" alt="Asistentes"></a>
-
+                <div id="OrdenarHorizontal" style="justify-content: space-evenly;">
+                    <div id="TarjetaProducto">                        
+                        <a href="Producto.html"><img src="Img/Amazon Echo Alexa 4ta Generación Negro foto1.jpeg" alt="Asistentes"></a>
+                        <h1>Amazon Echo Alexa 4ta Generación Negro</h1>
+                        <p>Precio: $2,499.00</p>
                     </div>
+                    <div id="TarjetaProducto">
+                        <a href="Producto.html"><img src="Img/Productos/FreidoraEléctrica.jpg" alt="FreidoraEléctrica"></a>
+                        <h1>Freidora Eléctrica Inteligente De Gran Capacidad De 16 L</h1>
+                        <p>Precio: $1,989.00</p>
+                    </div>
+                    <div id="TarjetaProducto">                        
+                        <a href="Producto.html"><img src="Img/Productos/FocoInteligente.jpg" alt="Asistentes"></a>
+                        <h1>Amazon Echo Alexa 4ta Generación Negro</h1>
+                        <p>Precio: $2,499.00</p>
+                    </div>                                        
                 </div>
-            </div>
-
-
-
-            
-
-
-
-
-
-
+            </div>            
+        </article>
+        <article id="IndexSeccionCinco"style="background-image: url(Img/SeccionCinco.png); background-size: cover; background-position:left;    background-repeat: no-repeat ;">
+            <section id="IndexSeccionCincoTextoBtn">
+                <div style="font-family: 'Avenir';">
+                    <h1>Controla Tu Hogar</h1>
+                    <p>Controlar tu hogar ahora es posible desde tu <br>dispositivo movil, controla todo con un Click.</p>
+                </div>
+                <button onclick="abrirPagina('CatalogoProductos.html')">Ver Productos</button>
+            </section>
         </article>
 
+        <footer>
+            <div id="OrdenarHorizontal" class="FooterDivAcomodo">
 
+                <div id="FooterDivUno" style="margin-right: 50px;">
+                    <p>FAQ</p>
+                    <p>CONTACTAR</p>
+                    <p style="padding-top: 90px;">Veamos los Productos</p>
+                    <div id="OrdenarHorizontal" style="justify-content: space-between; padding-top: 100px;">
+                        <img src="Img/FacebookLogo.png" alt="FBLOGO" style="width: 25px; height: auto;">
+                        <img src="Img/TwitterLogo.png" alt="TWLOGO"  style="width: 25px; height: auto;">
+                        <img src="Img/YoutubeLogo.png" alt="YTLogo"  style="width: 25px; height: auto;">
+                    </div>
+                    <p>© 2024 SMARTHOME</p>
+                </div>
+                    
+                <div id="FooterDivDos" style="margin-right: 50px;">
+                    <p>NOSOTROS</p>
+                    <p>SmartHome es tu tienda online de <br>accesorios para hogar inteligente lider <br>en la industria, siempre trabajando con <br>las mejores marcas para llegar a ti.</p>
+                    <ul>
+                        <li>Lideres en la industria</li>
+                        <li>Compras 100% seguras</li>
+                        <li>Entregas garantizadas</li>
+                    </ul>
+                </div>
+
+                <div id="FooterDivTres">
+                    <p>NOVEDADES</p>
+                    <p>Registrate con nosotros para recibir informacion <br>acerca de nuestros nuevos productos, los recien <br>llegados y los que estan por llegar, mantente al<br> pendiente de nuestras novedades.</p>
+                    <div>
+                        <input id="FooterCorreoElectronicoBarra" type="text" name="CorreoElectronico" placeholder="Ingresa tu email aquí*">                        
+                    </div>                    
+                    <button>Unirse</button>
+                </div>
+
+            </div>
+        </footer>
 
 
     </main>
@@ -167,7 +212,7 @@
 
     function abrirPagina(pagina) {
     window.location.href = pagina;
-}
+}   
 
 window.onload = function() {
       var inputBusqueda = document.getElementById('busqueda');
